@@ -1,17 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ConsultarActualzar />
+  <Eliminar/>
+  <Insertar/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ConsultarActualzar from "./pages/ActualizarConsultarPage.vue";
+import Eliminar from "./pages/EliminarPage.vue";
+import Insertar from "./pages/InsertarPage.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    ConsultarActualzar,
+    Eliminar, 
+    Insertar,
+  },
+};
 </script>
 
 <style>
