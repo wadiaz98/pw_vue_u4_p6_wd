@@ -1,19 +1,13 @@
 <template>
-  <ConsultarActualzar />
-  <Eliminar/>
-  <Insertar/>
+  <EstudiantesPage />
 </template>
-
-<script>
-import ConsultarActualzar from "./pages/ActualizarConsultarPage.vue";
-import Eliminar from "./pages/EliminarPage.vue";
-import Insertar from "./pages/InsertarPage.vue";
+  
+  <script>
+import EstudiantesPage from "./pages/EstudiantesPage.vue";
 export default {
   name: "App",
   components: {
-    ConsultarActualzar,
-    Eliminar, 
-    Insertar,
+    EstudiantesPage,
   },
 };
 </script>
