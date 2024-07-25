@@ -3,14 +3,14 @@
     <div class="formulario">
       <header>Borrar Estudiante</header>
       <section>
-        <form class="form">
+        <div class="form">
           <p type="Cédula">
             <input type="text" v-model="cedula" />
           </p>
           <div class="botonEliminar">
             <button @click="eliminar">Borrar</button>
           </div>
-        </form>
+        </div>
       </section>
     </div>
   </div>
