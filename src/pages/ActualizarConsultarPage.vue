@@ -1,5 +1,5 @@
 <template>
-    <ConsultarActualzar/>
+    <ConsultarActualzar />
 </template>
 
 <script>

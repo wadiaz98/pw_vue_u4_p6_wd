@@ -7,7 +7,8 @@ import BienvenidaPage  from '@/pages/BienvenidaPage.vue'
 import NotFoundPage from '@/pages/NotFoundPage.vue'
 const routes = [
     {
-        path:'/estudiante/actualizar',
+        /* Path variable en vue se declara de la siguiente manera /:pathvariable*/
+        path:'/estudiante/actualizar/:cedula',
         component:ActualizarConsultarPage
     },
     {
